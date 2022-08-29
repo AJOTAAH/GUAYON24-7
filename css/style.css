@@ -1,0 +1,164 @@
+/* @media screen and(min-width: 768px){
+    .gridBody{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+         ;
+    }
+    .sizeLogo{
+        width: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
+
+/* CSS aplicado al header */
+header {
+    background-image: linear-gradient(to bottom, #0b2140, #484f6a, #828397, #bdbcc7, #f9f9f9);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+
+.sizeLogo {
+    position: relative;
+    right: 120px;
+    width: 150px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.editLiHeader {
+    list-style-type: none;
+    padding: 18px;
+    display: inline
+}
+
+a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* CSS aplicado a main */
+.flexEquipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flexStats{
+    display: flex;
+    flex-direction: column;
+}
+.colorTitulo {
+    color: white;
+}
+.posiIframe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sizeTable {
+    padding: 20px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid;
+}
+
+.bgMatch1 {
+    background-image: url(../assets/img/inferno.jpg);
+    height: 210px;
+}
+
+.bgMatch2 {
+    background-image: url(../assets/img/vertigo.jpg);
+    height: 210px;
+}
+
+.bgMatch3 {
+    background-image: url(../assets/img/mirage.jpg);
+    height: 210px;
+}
+
+
+.bgColor {
+    background-color: white;
+}
+
+.fontColorCloud {
+    color: lightblue;
+}
+
+.fontColorNVI {
+    color: yellow;
+}
+
+.fontColorLiquid {
+    color: blue;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main p {
+    line-height: 30px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bgImg {
+    background-image: url(../assets/img/dust2.jpg);
+    height: 450px;
+}
+
+
+/* CSS aplicado al footer */
+.flexRedes {
+    display: flex;
+    flex-direction: column;
+}
+
+footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-image: linear-gradient(to top, #0b2140, #484f6a, #828397, #bdbcc7, #f9f9f9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+footer p {
+    color: white;
+}
+
+.sizeRRSS {
+    width: 60px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.sizeTiktok {
+    width: 60px;
+    height: 60px;
+    border-style: solid;
+}
+
+.editLiFooter {
+    list-style-type: none;
+    padding: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
