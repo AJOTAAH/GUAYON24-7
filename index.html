@@ -4,9 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>HOME | MAYEROS-SA</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- Link al archivo CSS -->
 	<link rel="stylesheet" href="./css/style.css">
+	<title>HOME | MAYEROS-SA</title>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 				</a>
 			</div>
 			<!-- nav -->
-			<nav>
+			<nav class="animacionLi">
 				<!-- listas no ordenadas -->
 				<ul>
 					<!-- cada elemento de la lista va a estar contenido en un 'li'-->
@@ -50,7 +51,7 @@
 		<main>
 			<section>
 				<article class="bgImg">
-					<h1 class="colorTitulo">BIENVENIDOS AL SITIO OFICIAL DE MAYEROS-SA </h1>
+					<h1 data-aos="fade-right" class="colorTitulo">BIENVENIDOS AL SITIO OFICIAL DE MAYEROS-SA </h1>
 					<div class="posiIframe">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/fNqY5KGAcU4"
 							title="YouTube video player" frameborder="0"
@@ -60,7 +61,7 @@
 				</article>
 				<article>
 					<div>
-						<h3>EQUIPO NACIONAL DE MEMEZUELA</h3>
+						<h3 data-aos="fade-right">EQUIPO NACIONAL DE MEMEZUELA</h3>
 					</div>
 					<div>
 						<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Pariatur praesentium rem ipsam
@@ -81,7 +82,7 @@
 							ipsum dolorem.</p>
 					</div>
 					<div>
-						<h3>CONSTRUYENDO SUEÑOS</h3>
+						<h3 data-aos="fade-right">CONSTRUYENDO SUEÑOS</h3>
 						<p>En la historia de un pais donde el alzamiento de un equipo de esports tiene mayor probalidad
 							que
 							la
@@ -134,7 +135,10 @@
 		</footer>
 		<!-- cierre footer -->
 	</div>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>
 </body>
 
 </html>

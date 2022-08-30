@@ -36,6 +36,15 @@ header {
     display: inline
 }
 
+.animacionLi{
+    transform: translateY(0px);
+    transition: all 1s;
+}
+
+.animacionLi:hover{
+    transform: translateY(-5px);
+    color: black;
+}
 a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
