@@ -12,8 +12,45 @@
 } */
 
 /* CSS aplicado al header */
-header {
-    background-image: linear-gradient(to bottom, #0b2140, #484f6a, #828397, #bdbcc7, #f9f9f9);
+.gridContainer{
+/*     display: grid; 
+    grid-template-columns: 34.5% 34.5% 34.5%; 
+    grid-template-rows: 25% 10% 40% 30% 30% 35%;    
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "logo nav nav"
+    "encabezado encabezado encabezado"
+    "imagen imagen imagen"
+    "primerTexto primerTexto aside"
+    "segundoTexto segundoTexto aside"
+    "footer footer footer"; */
+}
+.logoGrid{
+    grid-area: logo;
+}
+.navGrid{
+    grid-area: nav;
+}
+.encabezadoGrid{
+    grid-area: encabezado;
+}
+.imgGrid{
+    grid-area: imagen;
+}
+.primerTexto{
+    grid-area: primerTexto;
+}
+.segundoTexto{
+    grid-area: segundoTexto;
+}
+.asideGrid{
+    grid-area: aside;
+}
+.footerGrid{
+    grid-area: footer;
+}
+header{
+    background-image: linear-gradient(to bottom, #ffffff, #d1cdea, #a49ed5, #7470c0, #3c46aa);
     font-size: 20px;
     display: flex;
     flex-direction: row;
@@ -30,43 +67,51 @@ header {
     border-color: black;
 }
 
+.flexAni {
+    display: flex;
+    flex-direction: row;
+}
+
 .editLiHeader {
     list-style-type: none;
     padding: 18px;
     display: inline
 }
 
-.animacionLi{
+.animacionLi {
     transform: translateY(0px);
     transition: all 1s;
 }
 
-.animacionLi:hover{
+.animacionLi:hover {
     transform: translateY(-5px);
     color: black;
 }
+
 a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* CSS aplicado a main */
-.flexEquipo{
+.sizeImg{
+    width: 100%;
+    height: 480px;;
+}
+
+.flexEquipo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.flexStats{
+
+.flexStats {
     display: flex;
     flex-direction: column;
 }
+
 .colorTitulo {
-    color: white;
-}
-.posiIframe{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    color: black;
 }
 
 .sizeTable {
@@ -141,7 +186,7 @@ footer p {
 }
 
 footer {
-    background-image: linear-gradient(to top, #0b2140, #484f6a, #828397, #bdbcc7, #f9f9f9);
+    background-image: linear-gradient(to bottom, #3c46aa, #7470c0, #a49ed5, #d1cdea, #ffffff);
     display: flex;
     flex-direction: row;
     justify-content: space-around

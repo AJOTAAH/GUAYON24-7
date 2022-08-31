@@ -5,43 +5,53 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<!-- Link al archivo CSS -->
+	<!-- Link mi archivo CSS -->
 	<link rel="stylesheet" href="./css/style.css">
 	<title>HOME | MAYEROS-SA</title>
 </head>
 
 <body>
-	<div class="gridBody">
+	<div class="gridContainer">
 		<!-- Contenedores semanticos: header, nav, section, article, main, footer, etc -->
 		<!-- contenedores genericos: div (bloque); span (en linea)-->
 		<!-- header (logo + nav)-->
 		<header>
 			<!-- logo -->
-			<div>
+			<div class="logoGrid">
 				<a href="#">
 					<img src="assets/img/logo.png" alt="logo pagina" class="sizeLogo">
 				</a>
 			</div>
 			<!-- nav -->
-			<nav class="animacionLi">
+			<nav class="navGrid">
 				<!-- listas no ordenadas -->
-				<ul>
+				<ul class="flexAni">
 					<!-- cada elemento de la lista va a estar contenido en un 'li'-->
-					<li class="editLiHeader">
-						<a href="#">HOME</a>
-					</li>
-					<li class="editLiHeader">
-						<a href="pages/origen.html">ORIGEN</a>
-					</li>
-					<li class="editLiHeader">
-						<a href="pages/matches.html">MATCHES</a>
-					</li>
-					<li class="editLiHeader">
-						<a href="pages/equipo.html">EQUIPO</a>
-					</li>
-					<li class="editLiHeader">
-						<a href="pages/noticias.html">NOTICIAS</a>
-					</li>
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="#">HOME</a>
+						</li>
+					</div>
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="pages/origen.html">ORIGEN</a>
+						</li>
+					</div>
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="pages/matches.html">MATCHES</a>
+						</li>
+					</div>
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="pages/equipo.html">EQUIPO</a>
+						</li>
+					</div>
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="pages/noticias.html">NOTICIAS</a>
+						</li>
+					</div>
 				</ul>
 			</nav>
 
@@ -50,20 +60,13 @@
 		<!-- apertura contenido -->
 		<main>
 			<section>
-				<article class="bgImg">
-					<h1 data-aos="fade-right" class="colorTitulo">BIENVENIDOS AL SITIO OFICIAL DE MAYEROS-SA </h1>
-					<div class="posiIframe">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/fNqY5KGAcU4"
-							title="YouTube video player" frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
-					</div>
+				<article>
+					<h1 data-aos="fade-right" class="colorTitulo encabezadoGrid">BIENVENIDOS AL SITIO OFICIAL DE MAYEROS-SA </h1>
+					<img src="./assets/img/inferno.jpg" alt="img" class="sizeImg imgGrid">
 				</article>
 				<article>
-					<div>
+					<div class="primerTexto">
 						<h3 data-aos="fade-right">EQUIPO NACIONAL DE MEMEZUELA</h3>
-					</div>
-					<div>
 						<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Pariatur praesentium rem ipsam
 							officia,
 							voluptatibus, corrupti earum tempora. Ad vel dolores saepe vitae iste exercitationem
@@ -81,20 +84,30 @@
 							eligendi
 							ipsum dolorem.</p>
 					</div>
-					<div>
+					<div class="segundoTexto">
 						<h3 data-aos="fade-right">CONSTRUYENDO SUEÑOS</h3>
 						<p>En la historia de un pais donde el alzamiento de un equipo de esports tiene mayor probalidad
 							que
 							la
 							mejoria del propio pais</p>
 					</div>
+					<aside class="asideGrid">
+						<h3>HISTORY MATCHES</h3>
+						<table>
+							<td>
+								<th>MAYEROS-SA</th>
+								<th>vs</th>
+								<th>CLOUD9</th>
+							</td>
+						</table>
+					</aside>
 				</article>
 			</section>
 		</main>
 		<!-- cierre contenido -->
 		<!-- apertura footer -->
 		<hr>
-		<footer>
+		<footer class="footerGrid">
 			<div>
 				<nav>
 					<ul>
@@ -135,10 +148,10 @@
 		</footer>
 		<!-- cierre footer -->
 	</div>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-	AOS.init();
-</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>
