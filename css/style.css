@@ -1,38 +1,24 @@
-/* @media screen and(min-width: 768px){
-    .gridBody{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto;
-        grid-template-areas:       ;
-    }
-    .sizeLogo{
-        width: 50px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-} */
-
 /* CSS aplicado al header */
 .gridContainer{
 /*     display: grid; 
-    grid-template-columns: 34.5% 34.5% 34.5%; 
-    grid-template-rows: 25% 10% 40% 30% 30% 35%;    
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: auto auto auto auto auto auto;    
     gap: 0px 0px; 
     grid-template-areas: 
-    "logo nav nav"
-    "encabezado encabezado encabezado"
-    "imagen imagen imagen"
-    "primerTexto primerTexto aside"
-    "segundoTexto segundoTexto aside"
-    "footer footer footer"; */
+    "header header"
+    "encabezado encabezado"
+    "primerTexto aside"
+    "primerTexto aside"
+    "segundoTexto aside"
+    "footer footer"; */
 }
-.logoGrid{
-    grid-area: logo;
-}
-.navGrid{
-    grid-area: nav;
+.headerGrid{
+    grid-area: header;
 }
 .encabezadoGrid{
     grid-area: encabezado;
+    display: flex;
+    flex-direction: column;
 }
 .imgGrid{
     grid-area: imagen;
@@ -56,8 +42,6 @@ header{
     flex-direction: row;
     justify-content: space-evenly
 }
-
-
 .sizeLogo {
     position: relative;
     right: 120px;
