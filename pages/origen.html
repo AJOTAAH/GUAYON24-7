@@ -10,125 +10,158 @@
 </head>
 
 <body>
-	<!-- Contenedores semanticos: header, nav, section, article, main, footer, etc -->
-	<!-- contenedores genericos: div (bloque); span (en linea)-->
-	<!-- header (logo + nav)-->
-	<header>
-		<!-- logo -->
-		<div>
-			<a href="../index.html">
-				<img src="../assets/img/logo.png" alt="logo pagina" class="sizeLogo">
-			</a>
-		</div>
-
-		<!-- nav -->
-		<nav >
-			<!-- listas no ordenadas -->
-			<ul class="flexAni">
-				<!-- cada elemento de la lista va a estar contenido en un 'li'-->
-				<div class="animacionLi">
-					<li class="editLiHeader">
-						<a href="../index.html">HOME</a>
-					</li>
-				</div>
-				<div class="animacionLi">
-					<li class="editLiHeader">
-						<a href="#">ORIGEN</a>
-					</li>
-				</div>
-				<div class="animacionLi">
-					<li class="editLiHeader">
-						<a href="matches.html">MATCHES</a>
-					</li>
-				</div>
-				<div class="animacionLi">
-					<li class="editLiHeader">
-						<a href="equipo.html">EQUIPO</a>
-					</li>
-				</div>
-				<div class="animacionLi">
-					<li class="editLiHeader">
-						<a href="noticias.html">NOTICIAS</a>
-					</li>
-				</div>
-			</ul>
-		</nav>
-
-	</header>
-	<!-- cierre header -->
-	<!-- apertura contenido -->
-	<main>
-		<hr>
-		<div class="posiIframe">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/LOfVzkEEAIM"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-		</div>
-
-		<div>
-			<h1 data-aos="fade-right">LA RAZON DE TODO</h1>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti libero aut placeat perspiciatis nisi
-				ipsum, praesentium facilis vel tenetur ut velit modi totam nemo neque sit, unde laboriosam excepturi
-				voluptas? Unde inventore ratione voluptatibus, nostrum excepturi at! Assumenda, minus. Quasi, odit
-				accusantium officia tempore dolore corporis ut cupiditate laudantium perferendis libero minima itaque
-				laboriosam voluptates accusamus ducimus ab dolor quae minus ex velit ipsam facere. Nostrum placeat unde
-				rem autem aut facere quas. Ipsam reprehenderit nihil sit mollitia corrupti laboriosam minus sed, vitae
-				culpa aut officia, aliquam unde itaque aspernatur vel quae, ab ad soluta? Culpa corrupti quae quis modi!
-			</p>
-		</div>
-
-		<p>img</p>
-		<p>img</p>
-
-	</main>
-	<!-- cierre contenido -->
-	<!-- apertura footer -->
-	<hr>
-	<footer>
-		<div>
-			<nav>
-				<ul>
-					<li class="editLiFooter">
-						<a href="../index.html">HOME</a>
-					</li>
-					<li class="editLiFooter">
-						<a href="#">ORIGEN</a>
-					</li>
-					<li class="editLiFooter">
-						<a href="./matches.html">MATCHES</a>
-					</li>
-					<li class="editLiFooter">
-						<a href="./equipo.html">EQUIPO</a>
-					</li>
-					<li class="editLiFooter">
-						<a href="./noticias.html">NOTICIAS</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<div>
-			<p>RRSS</p>
+	<div class="gridContainer">
+		<!-- Contenedores semanticos: header, nav, section, article, main, footer, etc -->
+		<!-- contenedores genericos: div (bloque); span (en linea)-->
+		<!-- header (logo + nav)-->
+		<header>
+			<!-- logo -->
 			<div>
-				<img src="../assets/img/twitter.png" alt="twitter" class="sizeRRSS">
-				<a href="http://www.instagram.com/ajotaah/" target="_blank">
-					<img src="../assets/img/ig.png" alt="instagram" class="sizeRRSS">
-				</a>
-				<a href="https://www.tiktok.com/@ajotaah?lang=es" target="_blank">
-					<img src="../assets/img/tiktok.png" alt="tiktok" class="sizeTiktok">
+				<a href="../index.html">
+					<img src="../assets/img/logo.png" alt="logo pagina" class="sizeLogo">
 				</a>
 			</div>
-		</div>
-		<div>
-			<p>PARTNERS</p>
-		</div>
 
-	</footer>
-	<!-- cierre footer -->
+			<!-- nav -->
+			<nav>
+				<!-- listas no ordenadas -->
+				<ul class="flexAni">
+					<!-- cada elemento de la lista va a estar contenido en un 'li'-->
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="../index.html">HOME</a>
+						</li>
+					</div>
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="#">ORIGEN</a>
+						</li>
+					</div>
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="matches.html">MATCHES</a>
+						</li>
+					</div>
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="equipo.html">EQUIPO</a>
+						</li>
+					</div>
+					<div class="animacionLi">
+						<li class="editLiHeader">
+							<a href="noticias.html">NOTICIAS</a>
+						</li>
+					</div>
+				</ul>
+			</nav>
+
+		</header>
+		<!-- cierre header -->
+		<!-- apertura contenido -->
+		<main class="gridMainOrigen">
+			<div>
+				<div class="posiIframe">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/LOfVzkEEAIM"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+				</div>
+				<div class="encabezadoOri">
+					<h1>ORIGEN</h1>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum tempora expedita amet quae nihil
+						eum
+						aspernatur dolorum asperiores, dolor quibusdam vel autem cumque nam nulla consectetur rem
+						tenetur.
+						Praesentium numquam ut harum quos omnis minus, ea quam iste temporibus reprehenderit aut soluta
+						molestiae rerum velit neque iusto qui eaque deleniti!</p>
+				</div>
+				<div class="txtSecundarioOri">
+					<h2 data-aos="fade-right">LA RAZON DE TODO</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti libero aut placeat
+						perspiciatis nisi
+						ipsum, praesentium facilis vel tenetur ut velit modi totam nemo neque sit, unde laboriosam
+						excepturi
+						voluptas? Unde inventore ratione voluptatibus, nostrum excepturi at! Assumenda, minus. Quasi,
+						odit
+						accusantium officia tempore dolore corporis ut cupiditate laudantium perferendis libero minima
+						itaque
+						laboriosam voluptates accusamus ducimus ab dolor quae minus ex velit ipsam facere. Nostrum
+						placeat unde
+						rem autem aut facere quas. Ipsam reprehenderit nihil sit mollitia corrupti laboriosam minus sed,
+						vitae
+						culpa aut officia, aliquam unde itaque aspernatur vel quae, ab ad soluta? Culpa corrupti quae
+						quis modi!
+					</p>
+				</div>
+				<div class="ImgInferiorOri">
+					<img src="../assets/img/sanjuan.jpg" alt="miPueblo">
+				</div>
+				<div class="ImgDerOri">
+					<img src="../assets/img/eltitostaxx.jpg" alt="imgStaxx">
+				</div>
+				<div class="ImgIzqOri">
+					<img src="../assets/img/lolito.jpg" alt="imgLolito">
+				</div>
+		</main>
+		<!-- cierre contenido -->
+		<!-- apertura footer -->
+		<hr>
+		<footer>
+			<div>
+				<nav>
+					<ul>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="../index.html">HOME</a>
+							</li>
+						</div>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="#">ORIGEN</a>
+							</li>
+						</div>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="./matches.html">MATCHES</a>
+							</li>
+						</div>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="./equipo.html">EQUIPO</a>
+							</li>
+						</div>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="./noticias.html">NOTICIAS</a>
+							</li>
+						</div>
+					</ul>
+				</nav>
+			</div>
+			<div>
+				<p>RRSS</p>
+				<div>
+					<img src="../assets/img/twitter.png" alt="twitter" class="sizeRRSS">
+					<a href="http://www.instagram.com/ajotaah/" target="_blank">
+						<img src="../assets/img/ig.png" alt="instagram" class="sizeRRSS">
+					</a>
+					<a href="https://www.tiktok.com/@ajotaah?lang=es" target="_blank">
+						<img src="../assets/img/tiktok.png" alt="tiktok" class="sizeTiktok">
+					</a>
+				</div>
+			</div>
+			<div>
+				<p>PARTNERS</p>
+			</div>
+
+		</footer>
+		<!-- cierre footer -->
+	</div>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
 		AOS.init();
 	</script>
+	</div>
 </body>
 
 </html>

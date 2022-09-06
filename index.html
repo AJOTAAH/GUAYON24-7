@@ -15,7 +15,7 @@
 		<!-- Contenedores semanticos: header, nav, section, article, main, footer, etc -->
 		<!-- contenedores genericos: div (bloque); span (en linea)-->
 		<!-- header (logo + nav)-->
-		<header class="headerGrid">
+		<header>
 			<!-- logo -->
 			<div>
 				<a href="#">
@@ -24,9 +24,7 @@
 			</div>
 			<!-- nav -->
 			<nav>
-				<!-- listas no ordenadas -->
 				<ul class="flexAni">
-					<!-- cada elemento de la lista va a estar contenido en un 'li'-->
 					<div class="animacionLi">
 						<li class="editLiHeader">
 							<a href="#">HOME</a>
@@ -58,51 +56,66 @@
 		</header>
 		<!-- cierre header -->
 		<!-- apertura contenido -->
-		<main>
-			<section>
-				<article class="encabezadoGrid">
-					<h1 data-aos="fade-right" class="colorTitulo">BIENVENIDOS AL SITIO OFICIAL DE MAYEROS-SA </h1>
-					<img src="./assets/img/inferno.jpg" alt="img" class="sizeImg" >
-				</article>
-				<article>
-					<div class="primerTexto">
-						<h3 data-aos="fade-right">EQUIPO NACIONAL DE MEMEZUELA</h3>
-						<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Pariatur praesentium rem ipsam
-							officia,
-							voluptatibus, corrupti earum tempora. Ad vel dolores saepe vitae iste exercitationem
-							doloremque
-							expedita,
-							nostrum sed, sunt corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-							quaerat
-							cupiditate harum libero velit. Architecto dolorem voluptatum, perferendis cumque accusamus
-							quam
-							enim
-							libero repudiandae necessitatibus error excepturi ipsum, beatae reiciendis?Lorem ipsum dolor
-							sit
-							amet consectetur adipisicing elit. Esse a exercitationem consequatur ea voluptates officiis
-							cupiditate pariatur accusamus distinctio ipsam harum excepturi enim minus in, dolores quod
-							eligendi
-							ipsum dolorem.</p>
-					</div>
-					<div class="segundoTexto">
-						<h3 data-aos="fade-right">CONSTRUYENDO SUEÑOS</h3>
-						<p>En la historia de un pais donde el alzamiento de un equipo de esports tiene mayor probalidad
-							que
-							la
-							mejoria del propio pais</p>
-					</div>
-					<aside class="asideGrid">
-						<h3>HISTORY MATCHES</h3>
-						<table>
-							<td>
-								<th>MAYEROS-SA</th>
-								<th>vs</th>
-								<th>CLOUD9</th>
-							</td>
-						</table>
-					</aside>
-				</article>
-			</section>
+		<main class="gridMainIndex">
+			<article class="encabezado">
+				<h1 data-aos="fade-right" class="colorTitulo">BIENVENIDOS AL SITIO OFICIAL DE MAYEROS-SA </h1>
+				<img src="./assets/img/inferno.jpg" alt="img" class="sizeImg">
+			</article>
+			<div class="primerTexto">
+				<h3 data-aos="fade-right">EQUIPO NACIONAL DE MEMEZUELA</h3>
+				<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Pariatur praesentium rem ipsam
+					officia,
+					voluptatibus, corrupti earum tempora. Ad vel dolores saepe vitae iste exercitationem
+					doloremque
+					expedita,
+					nostrum sed, sunt corrupti? Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+					quaerat
+					cupiditate harum libero velit. Architecto dolorem voluptatum, perferendis cumque accusamus
+					quam
+					enim
+					libero repudiandae necessitatibus error excepturi ipsum, beatae reiciendis?Lorem ipsum dolor
+					sit
+					amet consectetur adipisicing elit. Esse a exercitationem consequatur ea voluptates officiis
+					cupiditate pariatur accusamus distinctio ipsam harum excepturi enim minus in, dolores quod
+					eligendi
+					ipsum dolorem.</p>
+			</div>
+			<div class="segundoTexto">
+				<h3 data-aos="fade-right">CONSTRUYENDO SUEÑOS</h3>
+				<p>En la historia de un pais donde el alzamiento de un equipo de esports tiene mayor probalidad
+					que
+					la
+					mejoria del propio pais</p>
+			</div>
+			<aside class="asideGrid">
+				<div class="asideCenter">
+					<h3 data-aos="fade-left">HISTORY MATCHES</h3>
+				</div>
+				<table class="asideCenter p-30 borderH">
+					<tr>
+						<th>MAYEROS-SA</th>
+						<th>vs</th>
+						<th>CLOUD9</th>
+					</tr>
+					<td class="positionTxt">2 : 0</td>
+				</table>
+				<table class="asideCenter p-30 borderH">
+					<tr>
+						<th>MAYEROS-SA</th>
+						<th>vs</th>
+						<th>CLOUD9</th>
+					</tr>
+					<td class="positionTxt">1 : 2</td>
+				</table>
+				<table class="asideCenter p-30 borderH">
+					<tr>
+						<th>MAYEROS-SA</th>
+						<th>vs</th>
+						<th>CLOUD9</th>
+					</tr>
+					<td class="positionTxt">1 : 1</td>
+				</table>
+			</aside>
 		</main>
 		<!-- cierre contenido -->
 		<!-- apertura footer -->
@@ -110,21 +123,31 @@
 			<div>
 				<nav>
 					<ul>
-						<li class="editLiFooter">
-							<a href="#">HOME</a>
-						</li>
-						<li class="editLiFooter">
-							<a href="pages/origen.html">ORIGEN</a>
-						</li>
-						<li class="editLiFooter">
-							<a href="pages/matches.html">MATCHES</a>
-						</li>
-						<li class="editLiFooter">
-							<a href="pages/equipo.html">EQUIPO</a>
-						</li>
-						<li class="editLiFooter">
-							<a href="pages/noticias.html">NOTICIAS</a>
-						</li>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="#">HOME</a>
+							</li>
+						</div>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="pages/origen.html">ORIGEN</a>
+							</li>
+						</div>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="pages/matches.html">MATCHES</a>
+							</li>
+						</div>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="pages/equipo.html">EQUIPO</a>
+							</li>
+						</div>
+						<div class="animacionLi">
+							<li class="editLiFooter">
+								<a href="pages/noticias.html">NOTICIAS</a>
+							</li>
+						</div>
 					</ul>
 				</nav>
 			</div>
